@@ -1,6 +1,6 @@
 # Born2Kotlin
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a2b6eabd-e769-45d4-8b72-0099ef7bcc00" width="300" />
+  <img src="https://github.com/user-attachments/assets/a2b6eabd-e769-45d4-8b72-0099ef7bcc00" width="200" />
 </p>
 
 ## About Born2Kotlin
