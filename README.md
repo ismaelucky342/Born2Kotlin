@@ -1,6 +1,9 @@
 # Born2Kotlin
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a2b6eabd-e769-45d4-8b72-0099ef7bcc00" width="300" />
+</p>
 
-## 📖 About Born2Kotlin
+## About Born2Kotlin
 
 **Born2Kotlin** is a collaborative repository created by students from U-Tad and Nebrija with the goal of learning and mastering Kotlin programming. This space is dedicated to sharing common projects and basic exercises that cover everything from the most fundamental concepts to more advanced practices.
 
@@ -8,7 +11,7 @@ Our main focus is to practice and improve our skills in Kotlin through collabora
 
 ---
 
-## 🏗️ What is Kotlin?
+## What is Kotlin?
 
 Kotlin is a modern, concise programming language that is fully interoperable with Java. Developed by JetBrains, it is widely used in mobile development (Android), backend development, and web applications. Some of Kotlin’s key features include:
 
@@ -20,7 +23,7 @@ Kotlin is a modern, concise programming language that is fully interoperable wit
 
 ---
 
-## 🚀 Repository Purpose
+## Repository Purpose
 
 The purpose of Born2Kotlin is to provide a space for learning and practicing Kotlin through basic exercises and collaborative projects. Here you will find:
 
