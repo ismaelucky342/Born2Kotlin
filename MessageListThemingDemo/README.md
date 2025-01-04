@@ -33,57 +33,12 @@ Un componente que se utiliza para mostrar cada mensaje individualmente dentro de
 - **Reciclaje de Elementos**: Solo los elementos visibles son renderizados, mejorando el rendimiento en listas grandes.
 - **Escalabilidad**: Admite un número infinito de elementos sin comprometer el rendimiento.
 
-### Código:
 
-```kotlin
-@Composable
-fun MessageList(messages: List<String>) {
-    LazyColumn(
-        modifier = Modifier.fillMaxSize()
-    ) {
-        // Agrega los mensajes de la lista
-        items(messages) { message ->
-            MessageInfo(message = message)
-        }
-    }
-}
-
-@Composable
-fun MessageInfo(message: String) {
-    // Muestra el mensaje
-    Text(text = message)
-}
 # Diferencia entre `LazyColumn` y `LazyRow`
 
 - **LazyColumn**: Los elementos se desplazan verticalmente.
 - **LazyRow**: Los elementos se desplazan horizontalmente.
 
-## Ejemplo de Uso de `LazyListScope`
-
-```kotlin
-LazyColumn {
-    item {
-        Text(text = "Primer mensaje")
-    }
-    items(3) { index ->
-        Text(text = "Mensaje: $index")
-    }
-    item {
-        Text(text = "Último mensaje")
-    }
-}
-## Añadir Padding y Espaciado entre Elementos
-
-```kotlin
-LazyColumn(
-    contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp),
-    verticalArrangement = Arrangement.spacedBy(4.dp)
-) {
-    items(messages) { message ->
-        MessageInfo(message = message)
-    }
-}
-Este código agrega un padding de 16.dp en los bordes horizontales y 8.dp en los bordes verticales, así como un espaciado de 4.dp entre los elementos de la lista.
 # Proyecto: MessageList Theming Demo
 
 Este proyecto es una demostración de cómo implementar una lista de mensajes utilizando `LazyColumn` en Jetpack Compose, junto con opciones de personalización como padding, espaciado entre elementos y el uso de temas.
