@@ -5,11 +5,15 @@
 
 ## About Born2Kotlin
 
-**Born2Kotlin** is a collaborative repository created by students from U-Tad and Nebrija with the goal of learning and mastering Kotlin programming. This space is dedicated to sharing common projects and basic exercises that cover everything from the most fundamental concepts to more advanced practices.
+**Born2Kotlin** is our collaborative repository created created with the purpose of learning and mastering Kotlin programming. This space is dedicated to sharing common projects and basic exercises that cover everything from the most fundamental concepts to more advanced practices.
 
 Our main focus is to practice and improve our skills in Kotlin through collaborative projects and hands-on exercises. Both beginners and intermediate developers can benefit from participating and sharing knowledge in this repository.
 
 ---
+
+## Collaborators
+- [**Ismael**](https://github.com/ismaelucky342)
+- [**Sara**](https://github.com/shevial)
 
 ## What is Kotlin?
 
